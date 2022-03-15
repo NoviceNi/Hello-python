@@ -9,6 +9,6 @@ def hello():
 
 if __name__ == '__main__':
     print('###' * 10)
-    name = raw_input("Please input your name: ")
-    print(hello() + name)
+    name = input("Please input your name: ")
+    print(hello() + " " + name)
     print('###' * 10)
